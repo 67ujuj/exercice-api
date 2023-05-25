@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+    font-family: Fredoka;
+    font-weight: 600;
+    font-size: 16px;
+}
+body{
+    background-color: aquamarine;
+}
+#bloc{
+    margin-top: 100px;
+}
+#tag{
+    height: 22px;
+    width: 280px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#bouton{
+    height: 28px;
+    width: 150px;
+    border-radius: 10px;
+}
