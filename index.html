@@ -9,9 +9,19 @@
   </head>
   <body>
     <div id="bloc">
-      <input type="text" placeholder="ex: Mario" id="tag" />
+      <input
+        type="text"
+        placeholder="ex: Mario"
+        id="tag"
+        onkeypress="toucheEntree(event)"
+      />
       <button type="button" id="bouton">Rechercher</button>
     </div>
+    <ul>
+      <li>
+        <div id="page"></div>
+      </li>
+    </ul>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
